@@ -1,0 +1,11 @@
+{
+   "parent": "block/cube_all",
+       "textures": {
+        "down": "ab:blocks/barrel_bottom",
+        "up": "ab:blocks/barrel_top",
+        "north": "ab:blocks/barrel_sides",
+        "east": "ab:blocks/barrel_sides",
+        "south": "ab:blocks/barrel_sides",
+        "west": "ab:blocks/barrel_sides"
+    }
+}
