@@ -22,7 +22,7 @@ public class Main {
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) {
-		System.out.println("Advanced Brewing Preninit");
+		System.out.println("Heil Hitler");
 	}
 	
 	@EventHandler
