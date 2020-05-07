@@ -1,23 +1,22 @@
-*.pydevproject
-.gradle/
-.project/
-.metadata/
-bin/
-eclipse/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
+# eclipse
+bin
+*.launch
+.settings
+.metadata
 .classpath
-.settings/
-.loadpath
-crash-reports/
-run/
-out/
-logs/
-mods/
-resourcepacks/
-saves/
-/options.txt
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
