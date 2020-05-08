@@ -1,5 +1,11 @@
 // Functional Blocks
 tile.barrel.name= Barrel
 
+// Crop
+item.hop.name = Hop Seed
+item.barley.name = Barley Seed
+tile.hop_plant.name = Hop Plant
+tile.barley_plant.name = Barley Plant
+
 // Tabs
 itemGroup.advanced_brewing=Advanced Brewing
