@@ -1,6 +1,6 @@
 {
     "parent":"block/crop",
     "textures": {
-        "crop":"ab:blocks/hop_plant1"
+        "crop":"ab:blocks/crops/hop_plant1"
     }
 }

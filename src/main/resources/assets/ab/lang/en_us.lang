@@ -7,5 +7,11 @@ item.barley.name = Barley Seed
 tile.hop_plant.name = Hop Plant
 tile.barley_plant.name = Barley Plant
 
+// Items
+item.hop.name=Hops
+item.barley.name=Barley
+item.hop_seed.name=Hops Seeds
+item.barley_seed.name= Barley Seeds
+
 // Tabs
 itemGroup.advanced_brewing=Advanced Brewing

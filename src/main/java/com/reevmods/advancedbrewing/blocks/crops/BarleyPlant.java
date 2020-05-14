@@ -19,8 +19,19 @@ import net.minecraft.world.World;
 
 public class BarleyPlant extends BlockCrops{
 	
-	protected static final AxisAlignedBB[] rice = new AxisAlignedBB[] {new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.125D,1.0D),new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.25D,1.0D),new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.375D,1.0D),new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.5525D,1.0D),new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.8125D,1.0D),new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,1.0D,1.0D),new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,1.0D,1.0D),new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,1.0D,1.0D)};
+	// Hitbox
+	protected static final AxisAlignedBB[] barley = new AxisAlignedBB[] {
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.125D,1.0D),
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.25D,1.0D),
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.375D,1.0D),
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.5525D,1.0D),
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,0.8125D,1.0D),
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,1.0D,1.0D),
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,1.0D,1.0D),
+			new AxisAlignedBB(0.0D,0.0D,0.0D,1.0D,1.0D,1.0D)
+	};
 	
+
 	public BarleyPlant(String name) {
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -50,6 +61,6 @@ public class BarleyPlant extends BlockCrops{
 	}
 	@Override
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-		return rice[((Integer)state.getValue(this.getAgeProperty())).intValue()];
+		return barley[((Integer)state.getValue(this.getAgeProperty())).intValue()];
 	}
 }
